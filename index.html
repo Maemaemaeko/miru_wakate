@@ -21,9 +21,8 @@
   </header>
   <main id="document">
     <article aria-label="公開資料全文">
-      <div class="source-text">
-        {% capture article_markdown %}{% include_relative content.md %}{% endcapture %}
-        {{ article_markdown | markdownify }}
+      <div id="source-text" class="source-text">
+        {% include_relative content.md %}
       </div>
     </article>
   </main>

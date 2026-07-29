@@ -1,14 +1,15 @@
 <h2 class="document-heading">はじめに</h2>
   <div class="document-line star-emphasis">・<span class="star-emphasis-text">イントロダクションに絞って考えた理由</span></div>
-  <div class="document-line">評価の高い論文においてIntroductionは応用言語学の観点から研究領域や研究上のギャップ、自身の研究の位置づけを示す重要な項目であるとされている。<a class="citation-link" href="#ref-1" aria-label="参考文献1へ移動">[1]</a></div>
-  <div class="document-line">また、ソフトウェア工学分野において、論文のIntroductionは本文の中核を担い、研究の価値の判断基準として用いられる。<a class="citation-link" href="#ref-2" aria-label="参考文献2へ移動">[2]</a></div>
-  <div class="document-line">そこで我々はIntroductionに注目して評価した。</br>また、Introductionのわかりやすさを計るCARS（Create-A-Research-Space)モデルより、理想的なIntroductionは「重要な研究目標、既存タスクの限界、測れていない能力、提案タスク、検証方針」の５つの要素で構成される。</div>
+  <div class="document-line2">　評価の高い論文においてIntroductionは応用言語学の観点から研究領域や研究上のギャップ、自身の研究の位置づけを示す重要な項目であるとされている。<a class="citation-link" href="#ref-1" aria-label="参考文献1へ移動">[1]</a></div>
+  <div class="document-line2">　また、ソフトウェア工学分野において、論文のIntroductionは本文の中核を担い、研究の価値の判断基準として用いられる。<a class="citation-link" href="#ref-2" aria-label="参考文献2へ移動">[2]</a></div>
+  <div class="document-line2">　そこで我々は<b>Introductionに注目して</b>評価した。</br>　また、Introductionのわかりやすさを計るCARS  (Create-A-Research-Space)モデルより、理想的なIntroductionは「重要な研究目標、既存タスクの限界、測れていない能力、提案タスク、検証方針」の５つの要素で構成される。</div>
   <div class="document-line star-emphasis">・<span class="star-emphasis-text">なぜ下記の５つの定義を選択したのか</span></div>
-  <div class="document-line">新タスク論文のIntroduction では、「何が未解決なのか、 既存タスクの限界、何を測るのか、意義は何か、評価設計 は適切か」が示されていることが理想的である。 そこで我々は、新タスク論文が以下の５つの要素で構成 されているものとし、それぞれについて「わかりやすいと は何か」について考察した。 </br>また、環境や文化に関連する定義を社会的定義、学術や技術に関連する定義を学術的定義とした。</br>以下は５つの定義の詳細とその根拠である。</div>
-  <div class="document-line 5"><b>1. 新タスクの必要性（社会的）</b>
-  <div class="document-line definition-block">図りたい能力・現象・応用要求は明確か？</div><div class="document-line definition-block">既存タスクでは扱うことのできない新しい研究課題を提示しているか？</div>
-  <div class="document-line evidence-block definition-block evidence-label">【根拠】</div>
-  <div class="example-entry">
+  <div class="document-line2">　新タスク論文のIntroduction では、「何が未解決なのか、 既存タスクの限界、何を測るのか、意義は何か、評価設計は適切か」が示されていることが理想的である。 そこで我々は、新タスク論文が以下の５つの要素で構成 されているものとし、それぞれについて<strong>「わかりやすいとは何か」</strong>について考察した。 </br>　また、環境や文化に関連する定義を社会的定義、学術や技術に関連する定義を学術的定義とした。</br>　以下は５つの定義とその根拠である。以降の見出しでは５つの定義の詳細を説明する。</div>
+  <div class="example-entry"><b>1. なぜ新しいタスクが必要か（社会的）</b>
+    <div class="document-line definition-block">図りたい能力・現象・応用要求は明確か？</div>
+    <div class="document-line definition-block">既存タスクでは扱うことのできない新しい研究課題を提示しているか？</div>
+    <div class="document-line evidence-block definition-block evidence-label">【根拠】</div>
+    <div class="example-entry">
       <div class="star-emphasis">・<span class="star-emphasis-text"> VQA: Visual Question Answering <a class="citation-link" href="#ref-3" aria-label="参考文献3へ移動">[3]</a>：</span></div>
       <div class="example-description">VQA は「画像＋自然言語質問」から「自然言語回答」を返す新タスクを提案し、画像キャプション生成より詳細な画像理解と複雑な推論が必要だと説明している。これは、新タスクが必要な理由を「既存タスクより高度・別種の能力を測るため」として示している例。</div>
     </div>
@@ -17,19 +18,20 @@
       <div class="example-description">GLUE は、単一タスク・単一データセットに特化した NLU モデルではなく、より一般的・柔軟・頑健な言語理解を評価する必要性を述べている。これは「新しい評価枠組みがなぜ必要か」を示す根拠。</div>
     </div>
   </div>
-  <div class="document-line 5"><b>2. 既存タスク・既存手法の不足（学術的）</b>
-  <div class="document-line definition-block">既存タスクとの差分が入力・出力・制約・成功条件・測定能力の違いとして説明されているか？</div>
-  <div class="document-line definition-block">既存評価が過大評価・過小評価・測定不能にしている点を特定しているか？ </div>
-  <div class="document-line evidence-block definition-block evidence-label">【根拠】</div>
-  <div class="example-entry">
-    <div class="star-emphasis">・<span class="star-emphasis-text">Beyond Accuracy: Behavioral Testing of NLP Models with CheckList <a class="citation-link" href="#ref-5" aria-label="参考文献5へ移動">[5]</a>：</span></div>
-    <div class="example-description">CheckList は、通常の held-out accuracy が NLP モデルの汎化性能を過大評価しうると指摘し、能力別・テストタイプ別の行動テストを提案している。したがって、「既存評価では何が測れていないか」を明示する必要がある、という基準の強い根拠になりうる。</div>
+  <div class="example-entry"><b>2. 既存タスク・既存手法では何が足りないか（学術的）</b>
+    <div class="document-line definition-block">既存タスクとの差分が入力・出力・制約・成功条件・測定能力の違いとして説明されているか？</div>
+    <div class="document-line definition-block">既存評価が過大評価・過小評価・測定不能にしている点を特定しているか？ </div>
+    <div class="document-line evidence-block definition-block evidence-label">【根拠】</div>
+    <div class="example-entry">
+      <div class="star-emphasis">・<span class="star-emphasis-text">Beyond Accuracy: Behavioral Testing of NLP Models with CheckList <a class="citation-link" href="#ref-5" aria-label="参考文献5へ移動">[5]</a>：</span></div>
+      <div class="example-description">CheckList は、通常の held-out accuracy が NLP モデルの汎化性能を過大評価しうると指摘し、能力別・テストタイプ別の行動テストを提案している。したがって、「既存評価では何が測れていないか」を明示する必要がある、という基準の強い根拠になりうる。</div>
+    </div>
+    <div class="example-entry">
+      <div class="star-emphasis">・<span class="star-emphasis-text">Know What You Don’t Know: Unanswerable Questions for SQuAD <a class="citation-link" href="#ref-6" aria-label="参考文献6へ移動">[6]</a>：</span></div>
+      <div class="example-description">SQuAD 2.0 は、既存の抽出型読解システムが、答えが文脈中に存在しない質問にも不確かな推測をしがちであり、既存データセットは答えられる質問に偏っていたと説明している。これは、「既存タスクの不足を特定し、その不足を埋める形で新タスクを定義する」例。</div>
+    </div>
   </div>
-  <div class="example-entry">
-    <div class="star-emphasis">・<span class="star-emphasis-text">Know What You Don’t Know: Unanswerable Questions for SQuAD <a class="citation-link" href="#ref-6" aria-label="参考文献6へ移動">[6]</a>：</span></div>
-    <div class="example-description">SQuAD 2.0 は、既存の抽出型読解システムが、答えが文脈中に存在しない質問にも不確かな推測をしがちであり、既存データセットは答えられる質問に偏っていたと説明している。これは、「既存タスクの不足を特定し、その不足を埋める形で新タスクを定義する」例。</div>
-  </div>
-  <div class="document-line 5"><b>3. 操作的タスク定義（学術的）</b>
+  <div class="example-entry"><b>3. 提案タスクでは、何を入力し、どの制約下で、何を出力するのか（操作的なタスク定義）（学術的）</b>
     <div class="document-line definition-block">入力・出力・制約条件・正解形式・成功条件が明確か？</div>
     <div class="document-line definition-block">第三者が同じタスクを再実装・再評価できる定義になっているか？</div>
     <div class="document-line evidence-block definition-block evidence-label">【根拠】</div>
@@ -42,7 +44,7 @@
       <div class="example-description">SQuAD は、Wikipedia 記事に対してクラウドワーカーが作成した質問を与え、答えは対応する読解パッセージ中のテキスト span として定義される、と説明している。これは、入力、出力、正解形式を操作可能に定義している例。</div>
     </div>
   </div>
-  <div class="document-line 5"><b>4. 学術的意義・社会的意義（社会的、学術的）</b>
+  <div class="example-entry"><b>4. そのタスクにどんな学術的・社会的な意義があるか（社会的、学術的）</b>
     <div class="document-line definition-block">学術的にはどの能力評価・未解決問題・分野の進歩に貢献するか？</div>
     <div class="document-line definition-block">社会的にはどの利用者・応用場面・リスク・倫理的・実用的要請と関係するか？</div>
     <div class="document-line evidence-block definition-block evidence-label">【根拠】</div>
@@ -59,7 +61,7 @@
       <div class="example-description">Data Statements は、データの由来や対象集団を明示することで、バイアス、一般化可能性、倫理的問題を扱えるようになると論じている。これは、社会的意義や適用範囲を過大主張せず、データ・利用者・影響を明確にする必要性の根拠になる。</div>
     </div>
   </div>
-  <div class="document-line 5"><b>5. 評価設計の明確さ（学術的）</b>
+  <div class="example-entry"><b>5. 評価設計、ベースライン、限界が明確か（学術的）</b>
     <div class="document-line definition-block">評価データ・アノテーション・分割・評価指標・評価手順が明確か？</div>
     <div class="document-line definition-block">ベースライン・人間性能・既存手法との比較により、タスクの難しさと研究余地が示されているか？</div>
     <div class="document-line definition-block">データ・指標・対象範囲・想定利用の限界が説明されているか？</div>
@@ -81,9 +83,9 @@
       <div class="example-description">Model Cards は、モデルの想定利用文脈、性能評価手続き、関連情報を開示することを求めている。これは、評価結果だけでなく、想定利用、評価条件、性能の解釈可能性を明示する必要性の根拠になる。</div>
     </div>
   </div>
-  
+
 <h2 class="document-heading">なぜ新しいタスクが必要か</h2>
-  <div class="document-line">新しいタスクの必要性を示すためには、現実世界にどのような未解決のニーズがあるのか、そして従来の問題設定ではなぜそのニーズを満たせないのかを明確にする必要がある。</div>
+  <div class="document-line">　新しいタスクの必要性を示すためには、現実世界にどのような未解決のニーズがあるのか、そして従来の問題設定ではなぜそのニーズを満たせないのかを明確にする必要がある。</div>
   <div class="example-entry">
     <div class="star-emphasis">・<span class="star-emphasis-text">Agriculture-Vision: A Large Aerial Image Database for Agricultural Pattern Analysis <a class="citation-link" href="#ref-12" aria-label="参考文献12へ移動">[12]</a>：</span></div>
     <div class="example-description">農作業の効率化や収穫量の向上のため、広範囲の農地を高解像度画像をセグメンテーションする必要がある。しかし、従来のセマンティックセグメンテーションでは、計算量やメモリの制約により、巨大な高解像度画像を高精度に処理しにくい。</div>
@@ -92,37 +94,39 @@
     <div class="star-emphasis">・<span class="star-emphasis-text">Learning to detect unseen object classes by between-class attribute transfer <a class="citation-link" href="#ref-13" aria-label="参考文献13へ移動">[13]</a>：</span></div>
     <div class="example-description">人間のように30000種類の物体クラスを識別させたいが、従来手法では、適切にラベル付けされた数百万枚の学習画像が必要となるため、今後数年では不可能である。</div>
   </div>
-  <div class="document-line">このように、「新しいタスクが必要である」と主張するためには、<strong>従来の問題設定が置いている前提や制約のために、本質的に扱えない対象が存在すること</strong>を示す必要がある。</div>
-  <div class="document-line">さらに、<strong>提案タスクの着想につながった観察や思考過程</strong>が記されていると、そのタスクが必要性から自然に導かれた問いであることを読者が理解しやすくなる。</div>
+  <div class="document-line">　このように、「新しいタスクが必要である」と主張するためには、<strong>従来の問題設定が置いている前提や制約のために、本質的に扱えない対象が存在すること</strong>を示す必要がある。</div>
+  <div class="document-line">　さらに、<strong>提案タスクの着想につながった観察や思考過程</strong>が記されていると、そのタスクが必要性から自然に導かれた問いであることを読者が理解しやすくなる。</div>
   <div class="example-entry">
     <div class="star-emphasis">・<span class="star-emphasis-text">Structure from Collision <a class="citation-link" href="#ref-14" aria-label="参考文献14へ移動">[14]</a>：</span></div>
     <div class="example-description">衝突時の変形は物体の内部構造に影響される、という観察から、変形を手掛かりに内部構造を推定するタスクを導く。</div>
   </div>
   <div class="example-entry">
-    <div class="star-emphasis">・<span class="star-emphasis-text">Learning to detect unseen object classes by between-class attribute transfer <a class="citation-link" href="#ref-13" aria-label="参考文献13へ移動">[13]</a>：</span></div><div class="example-description">人間は画像例がなくても言語による説明から未知の物体を認識できる、という観察から、言語情報を用いて未学習クラスを検出するタスクを導く。</div>
+    <div class="star-emphasis">・<span class="star-emphasis-text">Learning to detect unseen object classes by between-class attribute transfer <a class="citation-link" href="#ref-13" aria-label="参考文献13へ移動">[13]</a>：</span></div>
+    <div class="example-description">人間は画像例がなくても言語による説明から未知の物体を認識できる、という観察から、言語情報を用いて未学習クラスを検出するタスクを導く。</div>
   </div>
   <div class="example-entry">
     <div class="star-emphasis">・<span class="star-emphasis-text">Panoptic Segmentation <a class="citation-link" href="#ref-15" aria-label="参考文献15へ移動">[15]</a>：</span></div>
     <div class="example-description">stuffとthingsが別々のタスクとして扱われてきた、という研究上の分断への疑問から、両者を統合してシーン全体を一貫して理解するタスクを導く。</div>
   </div>
-  <div class="document-line">つまり、新タスク提案論文では、<strong>現実のニーズと既存の問題設定との間にあるギャップを示し、そのギャップを埋めるための自然な問いとして新規タスクを位置付けることが重要だとわかる。</strong></div>
+  <div class="document-line">　つまり、新タスク提案論文では、<strong>現実のニーズと既存の問題設定との間にあるギャップを示し、そのギャップを埋めるための自然な問いとして新規タスクを位置付けることが重要だとわかる。</strong></div>
+
 <h2 class="document-heading">既存タスク・既存手法では何が足りないか</h2>
   <div class="document-line">　新規タスクを提案する論文では、現実で実現したいことがあるが現在の研究タスクの定義では解けない、あるいは既存の評価指標では新しい問題設定を評価できない、という不足が Introduction に明確に書かれていた。しかし、現実でできない・評価指標が足りないと述べていれば必ず新規タスク論文である、というわけではなかった。一見すると新規タスクに見えても、実際には既存タスクを対象とし、より実世界での応用に向けた新規手法の観点から書かれた論文もあった。</div>
   <div class="document-line">読んだ論文六本のうち、FICTION <a class="citation-link" href="#ref-16" aria-label="参考文献16へ移動">[16]</a> 、Panoptic Segmentation <a class="citation-link" href="#ref-15" aria-label="参考文献15へ移動">[15]</a> 、VQA² <a class="citation-link" href="#ref-17" aria-label="参考文献17へ移動">[17]</a> の三本は、既存タスクが置いている前提を特定し、その前提が取りこぼす対象を新しいタスクとして定義していた。FICTION <a class="citation-link" href="#ref-16" aria-label="参考文献16へ移動">[16]</a> は、行動予測が二次元フレーム上に閉じている点を「limited to the 2D space of video frames」「ignoring the "where" and "how"」と述べ、三次元位置と身体姿勢が予測対象から抜け落ちていることを指摘している。VQA² <a class="citation-link" href="#ref-17" aria-label="参考文献17へ移動">[17]</a> は、品質評価がスコア出力に閉じている点を挙げ、劣化内容を理解・説明する能力がタスクに含まれていないことを指摘している。いずれも不足が、「既存手法の性能が低い」ではなく「既存の問題設定では扱えない対象タスクがある」という形で書かれている。</div>
   <div class="document-line">　特に Panoptic Segmentation <a class="citation-link" href="#ref-15" aria-label="参考文献15へ移動">[15]</a> は、評価の不足まで踏み込んでいる点で参考になる。同論文は「these metrics are best suited either for stuff or things, respectively, but not both」と既存指標の限界を指摘したうえで、「the use of disjoint metrics is one of the primary reasons the community generally studies stuff and things segmentation in isolation」と述べ、指標の分断がタスクの分断を再生産しているという因果を示している。FICTION では、指標は既存のものを流用し、データセットと評価プロトコルのみを新設する例もあり、新タスク提案が必ずしも新しい指標を伴うとは限らない。</div>
   <div class="document-line">　一方、NAS3R <a class="citation-link" href="#ref-18" aria-label="参考文献18へ移動">[18]</a> 、D4RT <a class="citation-link" href="#ref-19" aria-label="参考文献19へ移動">[19]</a> 、LA-Pose <a class="citation-link" href="#ref-20" aria-label="参考文献20へ移動">[20]</a> の三本は、扱うタスク自体が既存のFeedFowardのシーン復元とカメラ姿勢推定である。不足として指摘されるのは設定・構造・学習の方法である。NAS3R <a class="citation-link" href="#ref-18" aria-label="参考文献18へ移動">[18]</a> は、既存手法が事前学習済みモデルや正解内部パラメータに依存する点を「still require ground-truth camera intrinsics」と述べ、D4RT <a class="citation-link" href="#ref-19" aria-label="参考文献19へ移動">[19]</a> は処理を「dividing it into discrete, task-specific components」と分割している点を、LA-Pose <a class="citation-link" href="#ref-20" aria-label="参考文献20へ移動">[20]</a> は「surprisingly little effort has been devoted to exploring self-supervised pretraining」として学習手法の空白を、それぞれ問題としている。いずれもタスク定義や評価の側ではなく、そのタスクをどう解くかの側の不足である。</div>
-  
+
 <h2 class="document-heading">提案タスクでは、何を入力し、どの制約下で、何を出力するのか（操作的なタスク定義）</h2>
   <div class="document-line">　「操作的なタスク定義」とは、研究者が扱いたい抽象的な能力や現象を、第三者が実際に実行し、結果を判定できる手続きへ置き換えることである。例えば「画像を理解する能力」は、それ自体を直接見ることができない。そこで、どの画像と質問を与え、何を回答させ、どの情報を利用してよいかを定め、回答をどの基準で採点するかまで具体化する。Jacobs and Wallachは、抽象的な構成概念について「直接測定できず、関連する観察可能な性質から推論しなければならない」と説明している。つまり、正答率などの数値は能力そのものではなく、ある課題を代理として能力を測った結果である。このため、課題設計に含まれる仮定を明示しなければ、得点を「理解力そのもの」と誤って解釈する危険がある。<a class="citation-link" href="#ref-21" aria-label="参考文献21へ移動">[21]</a></div>
   <div class="document-line">　新タスク提案系研究の操作的定義には、少なくとも、①測定対象となる能力・現象、②一つの問題事例の単位、③入力、④利用可能な情報・時間・環境などの制約、⑤要求する出力または行動、⑥成功規準、⑦対象範囲と除外範囲が必要である。Subramonianらは、ベンチマークが、特定の形式、正しい入出力対からなるデータセット、評価指標によってタスクを具体化すると整理している。同時に、8種類の自然言語処理タスクを対象とした文献分析と実務家調査から、同じタスク名でも、何の能力を測るかについて研究者間の理解が一致しない場合があると報告した。したがって、入出力を示すだけでなく、「なぜこの作業が目的とする能力を表すのか」を説明する必要がある。<a class="citation-link" href="#ref-22" aria-label="参考文献22へ移動">[22]</a></div>
   <div class="document-line">　では、その操作的定義が「わかりやすく説明されている」とは何か。MIRU2026若手プログラムは、新タスク提案系研究で「タスク定義の明確さ」を重視し、論文の分かりやすさに関係する要素として、問題設定、論理展開、図表、実験結果の示し方を挙げている。</div>
   <div class="document-line">　これを査読研究と合わせると、読者が論文の早い段階で、「何を測るのか」「モデルに何をさせるのか」「なぜそれで測れるのか」「何を成功とするのか」「結果からどこまで主張できるのか」に一義的に答えられる状態と整理できる。BetterBenchも、ベンチマーク設計では、測定する能力・概念を定義するだけでなく、それが具体的なタスクへどう変換されるかを説明すべきだとしている。<a class="citation-link" href="#ref-23" aria-label="参考文献23へ移動">[23]</a></div>
   <div class="document-line">　したがって、本稿における「わかりやすさ」は、文章が平易であることだけを意味しない。本文中の定義、入出力例を示す図、データ構成、評価指標、ベースライン、結論が同じタスク像を一貫して示していることが重要である。また、正例だけでなく、曖昧な事例、対象外の事例、利用してはいけない情報も示されていれば、タスクの境界を理解しやすい。読者が暗黙の情報を推測して補わなくても、同じ評価手続きを再現し、得点の意味と主張の限界を説明できるなら、その操作的タスク定義は「わかりやすく説明されている」と判定できる。なお、この判定基準は単一論文が提示した既成の標準定義ではなく、以下の査読研究をMIRUの目的に沿って統合した操作的整理である。</div>
-  
+
 <h2 class="document-heading">そのタスクにどんな学術的・社会的な意義があるか</h2>
-  <div class="document-line">前述した新タスク導入の必要性に加えて、提案したタスクが研究分野と社会にどのような価値をもたらすかを示すことも重要である。</div>
-  <div class="document-line">学術的意義では、提案手法の性能だけでなく、そのタスクによって今後どのような研究が可能になるかを示す必要がある。例えば、新しい研究課題を生み出すこと、異なる研究分野を結びつけること、新しいモデル・データセット・評価方法の開発を促すことなどが挙げられる。</div>
-  <div class="document-line">社会的意義では、単に応用分野を列挙するのではなく、誰が、どのような場面で利用し、何が改善されるのかを具体的に示すと分かりやすい。また、必要に応じて、安全性、信頼性、公平性、説明可能性との関係にも触れるとよい。</div>
+  <div class="document-line">　前述した新タスク導入の必要性に加えて、提案したタスクが研究分野と社会にどのような価値をもたらすかを示すことも重要である。</div>
+  <div class="document-line">　学術的意義では、提案手法の性能だけでなく、そのタスクによって今後どのような研究が可能になるかを示す必要がある。例えば、新しい研究課題を生み出すこと、異なる研究分野を結びつけること、新しいモデル・データセット・評価方法の開発を促すことなどが挙げられる。</div>
+  <div class="document-line">　社会的意義では、単に応用分野を列挙するのではなく、誰が、どのような場面で利用し、何が改善されるのかを具体的に示すと分かりやすい。また、必要に応じて、安全性、信頼性、公平性、説明可能性との関係にも触れるとよい。</div>
   <div class="example-entry">
     <div class="star-emphasis">・<span class="star-emphasis-text">VQA² <a class="citation-link" href="#ref-17" aria-label="参考文献17へ移動">[17]</a>：</span></div>
     <div class="example-description">映像品質評価を数値予測から劣化内容の理解・説明へ拡張している。これにより、映像品質評価とマルチモーダル理解を結びつけるとともに、配信映像やAI生成映像の品質改善への活用を示している。</div>
@@ -143,23 +147,31 @@
     <div class="star-emphasis">・<span class="star-emphasis-text">Structure from Collision <a class="citation-link" href="#ref-14" aria-label="参考文献14へ移動">[14]</a>：</span></div>
     <div class="example-description">衝突時の変形から画像には見えない内部構造を推定する新しい三次元復元問題を提示している。これにより、三次元復元と物理理解を結びつけ、内部検査やロボットの物体理解への発展が考えられる。</div>
   </div>
-  <div class="document-line">特に分かりやすい論文では、学術的意義と社会的意義を別々に列挙するのではなく、次の流れで一続きに説明している。</div>
-  <div class="document-line">新たに可能になること→ 研究分野への広がり→ 利用者と利用場面→ 改善される問題</div>
-  <div class="document-line">このように、研究上新しく可能になることが、社会でどのような価値を持つのかを対応させて示すことで、新規タスクの意義が伝わりやすくなる。 </div>
+  <div class="document-line">　特に分かりやすい論文では、学術的意義と社会的意義を別々に列挙するのではなく、次の流れで一続きに説明している。</div>
+  <div class="document-line">　新たに可能になること→ 研究分野への広がり→ 利用者と利用場面→ 改善される問題</div>
+  <div class="document-line">　このように、研究上新しく可能になることが、社会でどのような価値を持つのかを対応させて示すことで、新規タスクの意義が伝わりやすくなる。 </div>
   <h2 class="document-heading">評価設計、ベースライン、限界が明確か</h2>
-    <div class="document-line">新規タスクを提案する論文のイントロダクションにおいて、タスク自体の説明に注力するあまり、後続の評価設計に関する記載が不足することが多々ある。しかし、新タスクのState-of-the-Artを目指す今後の研究に向けて明確な指針を示すためには、評価設定、ベースライン、そして現段階での限界をわかりやすく共有することが極めて重要である。本稿では、イントロダクションにおいて評価設計をどのように記述し、後続の研究へとつなげるべきかについてまとめる。</div>
-    <div class="document-line">後続の評価設計につなげるとは、新タスクとして定義したタスクの達成度を適切に評価するための指標を提示し、それが新タスクに対してなぜ妥当であるのかを説明することである。既存の評価指標を適用するにせよ、新たな評価指標を設定するにせよ、その理由を明記する必要がある。 そもそも評価設計が書かれていなければ、読者には何も伝わらない。新タスクの達成度を測る際の妥当性を示し、達成度を具体的に伝えるためには、「評価指標が陽に書かれていること」と「評価設計を決定した理由が書かれていること」が分かりやすさの絶対条件となる。</div>
-    <div class="document-line">評価設計が基本的に分かりやすいと評価される論文には、指標の見せ方や設定に優れた工夫が見られる。具体的な成功例として以下の論文が挙げられる。</div>
-    <div class="document-line star-emphasis">・<span class="star-emphasis-text">Panoptic Segmentation <a class="citation-link" href="#ref-15" aria-label="参考文献15へ移動">[15]</a>：</span></div>
-    <div class="document-line">評価のために新たに必要となる指標「Panoptic Quality」を提示することで指標を明確化し、研究の方向性を決定づけている。また、ベンチマークに用いるデータセットまで明確化されており、どこに向けた研究であるかが非常に分かりやすい。</div>
-    <div class="document-line star-emphasis">・<span class="star-emphasis-text">PolarFree：Polarization-based Reflection-Free Imaging <a class="citation-link" href="#ref-25" aria-label="参考文献25へ移動">[25]</a>：</span></div>
-    <div class="document-line">評価指標を明確にしていることに加え、具体的にどのような場面での利用を想定しているのかを明らかにしたうえで、実際に利用を考える場面での検証まで行っている。</div>
-    <div class="document-line star-emphasis">・<span class="star-emphasis-text">Structure from Collision <a class="citation-link" href="#ref-14" aria-label="参考文献14へ移動">[14]</a>：</span></div>
-    <div class="document-line">評価が具体化されており、数値が上がるほうがいいのか、下がるほうがいいのかといった「指標の読み方」まで明確にしている。</div>
-    <div class="document-line star-emphasis">・<span class="star-emphasis-text">FICTION ：4D Future Interaction Prediction from Video <a class="citation-link" href="#ref-16" aria-label="参考文献16へ移動">[16]</a>：</span></div>
-    <div class="document-line">どのようなタスクを想定しているのかが明記されており、ベースライン手法との性能差を具体的に書いている。</div>
-    <div class="document-line">わかりやすい評価設計・ベースライン・限界を記述するために求められるのは、単なる指標の羅列ではなく「評価設計の妥当性についての説明」である。妥当性を説明することで、新タスクの達成度を評価する上での指標の適切さを読者に伝えることができる。評価指標とベースラインを共有することは、新タスクのSoTAに挑む未来の研究者たちに対して、強力かつ明確な研究の指針を示すことにつなげることができる。</div>
-    
+    <div class="document-line">　新規タスクを提案する論文のイントロダクションにおいて、タスク自体の説明に注力するあまり、後続の評価設計に関する記載が不足することが多々ある。しかし、新タスクのState-of-the-Artを目指す今後の研究に向けて明確な指針を示すためには、評価設定、ベースライン、そして現段階での限界をわかりやすく共有することが極めて重要である。本稿では、イントロダクションにおいて評価設計をどのように記述し、後続の研究へとつなげるべきかについてまとめる。</div>
+    <div class="document-line">　後続の評価設計につなげるとは、新タスクとして定義したタスクの達成度を適切に評価するための指標を提示し、それが新タスクに対してなぜ妥当であるのかを説明することである。既存の評価指標を適用するにせよ、新たな評価指標を設定するにせよ、その理由を明記する必要がある。 そもそも評価設計が書かれていなければ、読者には何も伝わらない。新タスクの達成度を測る際の妥当性を示し、達成度を具体的に伝えるためには、「評価指標が陽に書かれていること」と「評価設計を決定した理由が書かれていること」が分かりやすさの絶対条件となる。</div>
+    <div class="document-line">　評価設計が基本的に分かりやすいと評価される論文には、指標の見せ方や設定に優れた工夫が見られる。具体的な成功例として以下の論文が挙げられる。</div>
+    <div class="example-entry">
+      <div class="document-line star-emphasis">・<span class="star-emphasis-text">Panoptic Segmentation <a class="citation-link" href="#ref-15" aria-label="参考文献15へ移動">[15]</a>：</span></div>
+      <div class="document-line">評価のために新たに必要となる指標「Panoptic Quality」を提示することで指標を明確化し、研究の方向性を決定づけている。また、ベンチマークに用いるデータセットまで明確化されており、どこに向けた研究であるかが非常に分かりやすい。</div>
+    </div>
+    <div class="example-entry">
+      <div class="document-line star-emphasis">・<span class="star-emphasis-text">PolarFree：Polarization-based Reflection-Free Imaging <a class="citation-link" href="#ref-25" aria-label="参考文献25へ移動">[25]</a>：</span></div>
+      <div class="document-line">評価指標を明確にしていることに加え、具体的にどのような場面での利用を想定しているのかを明らかにしたうえで、実際に利用を考える場面での検証まで行っている。</div>
+    </div>
+    <div class="example-entry">
+      <div class="document-line star-emphasis">・<span class="star-emphasis-text">Structure from Collision <a class="citation-link" href="#ref-14" aria-label="参考文献14へ移動">[14]</a>：</span></div>
+      <div class="document-line">評価が具体化されており、数値が上がるほうがいいのか、下がるほうがいいのかといった「指標の読み方」まで明確にしている。</div>
+    </div>
+    <div class="example-entry">
+      <div class="document-line star-emphasis">・<span class="star-emphasis-text">FICTION ：4D Future Interaction Prediction from Video <a class="citation-link" href="#ref-16" aria-label="参考文献16へ移動">[16]</a>：</span></div>
+      <div class="document-line">どのようなタスクを想定しているのかが明記されており、ベースライン手法との性能差を具体的に書いている。</div>
+    </div>
+    <div class="document-line">　わかりやすい評価設計・ベースライン・限界を記述するために求められるのは、単なる指標の羅列ではなく「評価設計の妥当性についての説明」である。妥当性を説明することで、新タスクの達成度を評価する上での指標の適切さを読者に伝えることができる。評価指標とベースラインを共有することは、新タスクのSoTAに挑む未来の研究者たちに対して、強力かつ明確な研究の指針を示すことにつなげることができる。</div>
+
 <h2 class="document-heading">まとめ</h2>
   <div class="document-line">　我々は新タスク論文について、５つの定義に基づき、Introduction に注目してわかりやすさを評価した。結果、Introduction は、研究の問い、必要性、既存研究との差、目的、貢献を一つの論理として成立させる中核的な部分であり、Introduction の質向上が論文の了解性につながると確認した。</div>
   <div class="document-line reference-heading">【参考文献】</div>

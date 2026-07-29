@@ -1,57 +1,55 @@
 <h2 class="document-heading">はじめに</h2>
-  <div class="document-line star-emphasis">
-    ・<span class="star-emphasis-text">イントロダクションに絞って考えた理由</span></div><div class="document-line">評価の高い論文においてIntroductionは応用言語学の観点から研究領域や研究上のギャップ、自身の研究の位置づけを示す重要な項目であるとされている．
-      <a class="citation-link" href="#ref-1" aria-label="参考文献1へ移動">[1]</a>
-  </div>
-  <div class="document-line">また、ソフトウェア工学分野において、論文のIntroductionは本文の中核を担い、研究の価値の判断基準として用いられる．
-    <a class="citation-link" href="#ref-2" aria-label="参考文献2へ移動">[2]</a>
-  </div>
-  <div class="document-line">そこで我々はIntroductionに注目して評価した。</div>
-  <div class="document-line">また，Introductionのわかりやすさを計るCARS（Create-A-Research-Space)モデルより、理想的なIntroductionは「重要な研究目標、既存タスクの限界、測れていない能力、提案タスク、検証方針」の５つの要素で構成される．</div>
+  <div class="document-line star-emphasis">・<span class="star-emphasis-text">イントロダクションに絞って考えた理由</span></div><div class="document-line">評価の高い論文においてIntroductionは応用言語学の観点から研究領域や研究上のギャップ、自身の研究の位置づけを示す重要な項目であるとされている．<a class="citation-link" href="#ref-1" aria-label="参考文献1へ移動">[1]</a></div>
+  <div class="document-line">また、ソフトウェア工学分野において、論文のIntroductionは本文の中核を担い、研究の価値の判断基準として用いられる．<a class="citation-link" href="#ref-2" aria-label="参考文献2へ移動">[2]</a></div>
+  <div class="document-line">そこで我々はIntroductionに注目して評価した。</br>また，Introductionのわかりやすさを計るCARS（Create-A-Research-Space)モデルより、理想的なIntroductionは「重要な研究目標、既存タスクの限界、測れていない能力、提案タスク、検証方針」の５つの要素で構成される．</div>
   <div class="document-line star-emphasis">・<span class="star-emphasis-text">なぜ下記の５つの定義を選択したのか</span></div>
-  <div class="document-line">新タスク論文のIntroduction では、「何が未解決なのか、 既存タスクの限界、何を測るのか、意義は何か、評価設計 は適切か」が示されていることが理想的である。 そこで我々は、新タスク論文が以下の５つの要素で構成 されているものとし、それぞれについて「わかりやすいと は何か」について考察した。 </div>
-  <div class="document-line">また、環境や文化に関連する定義を社会的定義、学術や技術に関連する定義を学術的定義とした．</div>
-  <div class="document-line">以下は５つの定義の詳細とその根拠である．</div>
-  <div class="document-line definition-heading definition-block">1. 新タスクの必要性（社会的）</div>
+  <div class="document-line">新タスク論文のIntroduction では、「何が未解決なのか、 既存タスクの限界、何を測るのか、意義は何か、評価設計 は適切か」が示されていることが理想的である。 そこで我々は、新タスク論文が以下の５つの要素で構成 されているものとし、それぞれについて「わかりやすいと は何か」について考察した。 </br>また、環境や文化に関連する定義を社会的定義、学術や技術に関連する定義を学術的定義とした．</br>以下は５つの定義の詳細とその根拠である．</div>
+  <div class="document-line definition-heading definition-block">1. 新タスクの必要性（社会的）
   <div class="document-line definition-block">図りたい能力・現象・応用要求は明確か？</div><div class="document-line definition-block">既存タスクでは扱うことのできない新しい研究課題を提示しているか？</div>
   <div class="document-line evidence-block definition-block evidence-label">【根拠】</div>
   <div class="document-line evidence-block definition-block">VQA: Visual Question Answering <a class="citation-link" href="#ref-3" aria-label="参考文献3へ移動">[3]</a></div>
   <div class="document-line evidence-block definition-block">VQA は「画像＋自然言語質問」から「自然言語回答」を返す新タスクを提案し、画像キャプション生成より詳細な画像理解と複雑な推論が必要だと説明している。これは、新タスクが必要な理由を「既存タスクより高度・別種の能力を測るため」として示している例。</div>
   <div class="document-line evidence-block definition-block">GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding <a class="citation-link" href="#ref-4" aria-label="参考文献4へ移動">[4]</a></div>
-  <div class="document-line evidence-block definition-block">GLUE は、単一タスク・単一データセットに特化した NLU モデルではなく、より一般的・柔軟・頑健な言語理解を評価する必要性を述べている。これは「新しい評価枠組みがなぜ必要か」を示す根拠。</div>
-  <div class="document-line definition-heading definition-block">2. 既存タスク・既存手法の不足（学術的）</div>
+  <div class="document-line evidence-block definition-block">GLUE は、単一タスク・単一データセットに特化した NLU モデルではなく、より一般的・柔軟・頑健な言語理解を評価する必要性を述べている。これは「新しい評価枠組みがなぜ必要か」を示す根拠。</div></div>
+  <div class="document-line definition-heading definition-block">2. 既存タスク・既存手法の不足（学術的）
   <div class="document-line definition-block">既存タスクとの差分が入力・出力・制約・成功条件・測定能力の違いとして説明されているか？</div>
   <div class="document-line definition-block">既存評価が過大評価・過小評価・測定不能にしている点を特定しているか？ </div>
   <div class="document-line evidence-block definition-block evidence-label">【根拠】</div>
   <div class="document-line evidence-block definition-block">Beyond Accuracy: Behavioral Testing of NLP Models with CheckList <a class="citation-link" href="#ref-5" aria-label="参考文献5へ移動">[5]</a></div>
   <div class="document-line evidence-block definition-block">CheckList は、通常の held-out accuracy が NLP モデルの汎化性能を過大評価しうると指摘し、能力別・テストタイプ別の行動テストを提案している。したがって、「既存評価では何が測れていないか」を明示する必要がある、という基準の強い根拠になりうる。</div>
-  <div class="document-line evidence-block definition-block">Know What You Don’t Know: Unanswerable Questions for SQuAD <a class="citation-link" href="#ref-6" aria-label="参考文献6へ移動">[6]</a></div><div class="document-line evidence-block definition-block">SQuAD 2.0 は、既存の抽出型読解システムが、答えが文脈中に存在しない質問にも不確かな推測をしがちであり、既存データセットは答えられる質問に偏っていたと説明している。これは、「既存タスクの不足を特定し、その不足を埋める形で新タスクを定義する」例。</div><div class="document-line definition-heading definition-block">3. 客観的了解性（学術的）</div>
-  <div class="document-line definition-block">入力・出力・制約条件・正解形式・成功条件が明確か？</div><div class="document-line definition-block">第三者が同じタスクを再実装・再評価できる定義になっているか？</div>
-  <div class="document-line evidence-block definition-block evidence-label">【根拠】</div>
-  <div class="document-line evidence-block definition-block">VQA: Visual Question Answering <a class="citation-link" href="#ref-3" aria-label="参考文献3へ移動">[3]</a></div>
-  <div class="document-line evidence-block definition-block">VQA は、入力を「画像と自然言語質問」、出力を「正確な自然言語回答」と明示している。このように入力・出力が明確であることは、新タスクを既存タスクから区別し、第三者が再実装・評価できる条件になりうる。</div>
-  <div class="document-line evidence-block definition-block">SQuAD: 100,000+ Questions for Machine Comprehension of Text <a class="citation-link" href="#ref-7" aria-label="参考文献7へ移動">[7]</a></div>
-  <div class="document-line evidence-block definition-block">SQuAD は、Wikipedia 記事に対してクラウドワーカーが作成した質問を与え、答えは対応する読解パッセージ中のテキスト span として定義される、と説明している。これは、入力、出力、正解形式を操作可能に定義している例。</div>
-  <div class="document-line definition-heading definition-block">4. 学術的意義・社会的意義（社会的，学術的）</div><div class="document-line definition-block">学術的にはどの能力評価・未解決問題・分野の進歩に貢献するか？</div><div class="document-line definition-block">社会的にはどの利用者・応用場面・リスク・倫理的，実用的要請と関係するか？</div>
-  <div class="document-line evidence-block definition-block evidence-label">【根拠】</div>
-  <div class="document-line evidence-block definition-block">VQA: Visual Question Answering <a class="citation-link" href="#ref-3" aria-label="参考文献3へ移動">[3]</a></div>
-  <div class="document-line evidence-block definition-block">VQA は、視覚障害者支援のような実世界シナリオに言及しつつ、画像理解と推論を要する研究課題として提案されている。したがって、社会的意義と学術的意義を同時に説明する例になる。</div>
-  <div class="document-line evidence-block definition-block">ImageNet Large Scale Visual Recognition Challenge <a class="citation-link" href="#ref-8" aria-label="参考文献8へ移動">[8]</a></div>
-  <div class="document-line evidence-block definition-block">ImageNet ILSVRC 論文は、大規模物体認識ベンチマークが物体認識の進歩を可能にし、分野の現状分析や人間性能との比較を行ったと説明している。これは、タスク・ベンチマークが研究分野全体の進歩を測る学術的基盤になりうることを示している。</div>
-  <div class="document-line evidence-block definition-block">Data Statements for Natural Language Processing: Toward Mitigating System Bias and Enabling Better Science <a class="citation-link" href="#ref-9" aria-label="参考文献9へ移動">[9]</a></div>
-  <div class="document-line evidence-block definition-block">Data Statements は、データの由来や対象集団を明示することで、バイアス、一般化可能性、倫理的問題を扱えるようになると論じている。これは、社会的意義や適用範囲を過大主張せず、データ・利用者・影響を明確にする必要性の根拠になる。</div>
-  <div class="document-line definition-heading definition-block">5. 評価設計の明確さ（学術的）</div>
-  <div class="document-line definition-block">評価データ・アノテーション・分割・評価指標・評価手順が明確か？</div>
-  <div class="document-line definition-block">ベースライン・人間性能・既存手法との比較により，タスクの難しさと研究余地が示されているか？</div>
-  <div class="document-line definition-block">データ・指標・対象範囲・想定利用の限界が説明されているか？</div>
-  <div class="document-line evidence-block definition-block evidence-label">【根拠】</div>
-  <div class="document-line evidence-block definition-block">The PASCAL Visual Object Classes Challenge: A Retrospective <a class="citation-link" href="#ref-10" aria-label="参考文献10へ移動">[10]</a></div>
-  <div class="document-line evidence-block definition-block">PASCAL VOC は、公開データセット、ground truth annotation、標準化された評価ソフトウェア、年次競技会・ワークショップから成る評価基盤として説明されている。これは、評価データ・正解・評価手順を標準化する必要性の根拠になる。</div>
-  <div class="document-line evidence-block definition-block">ImageNet Large Scale Visual Recognition Challenge <a class="citation-link" href="#ref-8" aria-label="参考文献8へ移動">[8]</a></div>
-  <div class="document-line evidence-block definition-block">ImageNet ILSVRC は、公開訓練データ、秘匿テストアノテーション、評価サーバ、年次コンペティション、分野の進歩分析、人間性能との比較を含む枠組みとして説明されている。これは、評価設定、比較可能性、人間性能、限界や将来方向まで含めるべきことの根拠になる。</div><div class="document-line evidence-block definition-block">SQuAD: 100,000+ Questions for Machine Comprehension of Text <a class="citation-link" href="#ref-7" aria-label="参考文献7へ移動">[7]</a> </div>
-  <div class="document-line evidence-block definition-block">SQuAD は、強いロジスティック回帰モデル、単純ベースライン、人間性能を比較し、データセットが将来研究にとって十分難しい challenge problem であることを示している。これは、新タスク提案においてベースラインと人間性能が有用な根拠になる。</div>
-  <div class="document-line evidence-block definition-block">Model Cards for Model Reporting <a class="citation-link" href="#ref-11" aria-label="参考文献11へ移動">[11]</a></div>
-  <div class="document-line evidence-block definition-block">Model Cards は、モデルの想定利用文脈、性能評価手続き、関連情報を開示することを求めている。これは、評価結果だけでなく、想定利用、評価条件、性能の解釈可能性を明示する必要性の根拠になる。</div>
+  <div class="document-line evidence-block definition-block">Know What You Don’t Know: Unanswerable Questions for SQuAD <a class="citation-link" href="#ref-6" aria-label="参考文献6へ移動">[6]</a></div><div class="document-line evidence-block definition-block">SQuAD 2.0 は、既存の抽出型読解システムが、答えが文脈中に存在しない質問にも不確かな推測をしがちであり、既存データセットは答えられる質問に偏っていたと説明している。これは、「既存タスクの不足を特定し、その不足を埋める形で新タスクを定義する」例。</div>
+  </div>
+      <div class="document-line definition-heading definition-block">3. 操作的タスク定義（学術的）
+      <div class="document-line definition-block">入力・出力・制約条件・正解形式・成功条件が明確か？</div><div class="document-line definition-block">第三者が同じタスクを再実装・再評価できる定義になっているか？</div>
+      <div class="document-line evidence-block definition-block evidence-label">【根拠】</div>
+      <div class="document-line evidence-block definition-block">VQA: Visual Question Answering <a class="citation-link" href="#ref-3" aria-label="参考文献3へ移動">[3]</a></div>
+      <div class="document-line evidence-block definition-block">VQA は、入力を「画像と自然言語質問」、出力を「正確な自然言語回答」と明示している。このように入力・出力が明確であることは、新タスクを既存タスクから区別し、第三者が再実装・評価できる条件になりうる。</div>
+      <div class="document-line evidence-block definition-block">SQuAD: 100,000+ Questions for Machine Comprehension of Text <a class="citation-link" href="#ref-7" aria-label="参考文献7へ移動">[7]</a></div>
+      <div class="document-line evidence-block definition-block">SQuAD は、Wikipedia 記事に対してクラウドワーカーが作成した質問を与え、答えは対応する読解パッセージ中のテキスト span として定義される、と説明している。これは、入力、出力、正解形式を操作可能に定義している例。</div>
+    </div>
+    <div class="document-line definition-heading definition-block">4. 学術的意義・社会的意義（社会的，学術的）
+    <div class="document-line definition-block">学術的にはどの能力評価・未解決問題・分野の進歩に貢献するか？</div><div class="document-line definition-block">社会的にはどの利用者・応用場面・リスク・倫理的，実用的要請と関係するか？</div>
+    <div class="document-line evidence-block definition-block evidence-label">【根拠】</div>
+    <div class="document-line evidence-block definition-block">VQA: Visual Question Answering <a class="citation-link" href="#ref-3" aria-label="参考文献3へ移動">[3]</a></div>
+    <div class="document-line evidence-block definition-block">VQA は、視覚障害者支援のような実世界シナリオに言及しつつ、画像理解と推論を要する研究課題として提案されている。したがって、社会的意義と学術的意義を同時に説明する例になる。</div>
+    <div class="document-line evidence-block definition-block">ImageNet Large Scale Visual Recognition Challenge <a class="citation-link" href="#ref-8" aria-label="参考文献8へ移動">[8]</a></div>
+    <div class="document-line evidence-block definition-block">ImageNet ILSVRC 論文は、大規模物体認識ベンチマークが物体認識の進歩を可能にし、分野の現状分析や人間性能との比較を行ったと説明している。これは、タスク・ベンチマークが研究分野全体の進歩を測る学術的基盤になりうることを示している。</div>
+    <div class="document-line evidence-block definition-block">Data Statements for Natural Language Processing: Toward Mitigating System Bias and Enabling Better Science <a class="citation-link" href="#ref-9" aria-label="参考文献9へ移動">[9]</a></div>
+    <div class="document-line evidence-block definition-block">Data Statements は、データの由来や対象集団を明示することで、バイアス、一般化可能性、倫理的問題を扱えるようになると論じている。これは、社会的意義や適用範囲を過大主張せず、データ・利用者・影響を明確にする必要性の根拠になる。</div>
+  </div>
+  <div class="document-line definition-heading definition-block">5. 評価設計の明確さ（学術的）
+    <div class="document-line definition-block">評価データ・アノテーション・分割・評価指標・評価手順が明確か？</div>
+    <div class="document-line definition-block">ベースライン・人間性能・既存手法との比較により，タスクの難しさと研究余地が示されているか？</div>
+    <div class="document-line definition-block">データ・指標・対象範囲・想定利用の限界が説明されているか？</div>
+    <div class="document-line evidence-block definition-block evidence-label">【根拠】</div>
+    <div class="document-line evidence-block definition-block">The PASCAL Visual Object Classes Challenge: A Retrospective <a class="citation-link" href="#ref-10" aria-label="参考文献10へ移動">[10]</a></div>
+    <div class="document-line evidence-block definition-block">PASCAL VOC は、公開データセット、ground truth annotation、標準化された評価ソフトウェア、年次競技会・ワークショップから成る評価基盤として説明されている。これは、評価データ・正解・評価手順を標準化する必要性の根拠になる。</div>
+    <div class="document-line evidence-block definition-block">ImageNet Large Scale Visual Recognition Challenge <a class="citation-link" href="#ref-8" aria-label="参考文献8へ移動">[8]</a></div>
+    <div class="document-line evidence-block definition-block">ImageNet ILSVRC は、公開訓練データ、秘匿テストアノテーション、評価サーバ、年次コンペティション、分野の進歩分析、人間性能との比較を含む枠組みとして説明されている。これは、評価設定、比較可能性、人間性能、限界や将来方向まで含めるべきことの根拠になる。</div><div class="document-line evidence-block definition-block">SQuAD: 100,000+ Questions for Machine Comprehension of Text <a class="citation-link" href="#ref-7" aria-label="参考文献7へ移動">[7]</a> </div>
+    <div class="document-line evidence-block definition-block">SQuAD は、強いロジスティック回帰モデル、単純ベースライン、人間性能を比較し、データセットが将来研究にとって十分難しい challenge problem であることを示している。これは、新タスク提案においてベースラインと人間性能が有用な根拠になる。</div>
+    <div class="document-line evidence-block definition-block">Model Cards for Model Reporting <a class="citation-link" href="#ref-11" aria-label="参考文献11へ移動">[11]</a></div>
+    <div class="document-line evidence-block definition-block">Model Cards は、モデルの想定利用文脈、性能評価手続き、関連情報を開示することを求めている。これは、評価結果だけでなく、想定利用、評価条件、性能の解釈可能性を明示する必要性の根拠になる。</div>
+  </div>
   
 <h2 class="document-heading">なぜ新しいタスクが必要か</h2>
   <div class="document-line">新しいタスクの必要性を示すためには、現実世界にどのような未解決のニーズがあるのか、そして従来の問題設定ではなぜそのニーズを満たせないのかを明確にする必要がある。</div>

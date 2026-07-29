@@ -1,17 +1,29 @@
-# miru_wakate
+# Introductionから見るMIRU新タスクの明快さ
 
-MIRU2026若手プログラム「Introductionから見るmiru新タスクの明快さ」の公開資料サイトです。
+MIRU若手プログラムの新タスク提案を、Introductionの明快さという観点から整理した公開資料サイトです。
+共有されたGoogleドキュメントの全文を、内容を省略せず掲載しています。
 
-## サイトを更新する方法
+## ファイル構成
 
-1. このリポジトリを Fork します。
-2. `index.html`、`style.css`、`script.js` を編集します。
-3. Pull Request を作成してください。
+- `index.html` — ページ本体
+- `style.css` — デザインとレスポンシブ対応
+- `content.md` — 掲載する本文（通常はこのファイルを編集します）
+- `script.js` — Markdown本文の読み込みと表示処理
+- `tools/import-google-doc.mjs` — ダウンロード済み原稿からサイトを再生成する取り込みスクリプト
 
-内容の修正提案は Issue からも受け付けます。
+## GitHub Pagesで公開する方法
 
-## 主なファイル
+1. GitHubで新しいリポジトリを作成します。
+2. `index.html`、`style.css`、`script.js`、`content.md`、READMEをリポジトリ直下へアップロードします。
+3. GitHubの `Settings` → `Pages` を開きます。
+4. `Build and deployment` の Source を `Deploy from a branch` にします。
+5. Branchを `main`、フォルダを `/ (root)` にして保存します。
+6. 数分後に表示されるURLから公開ページへアクセスできます。
 
-- `index.html` — ページ構造
-- `style.css` — 表示デザイン
-- `script.js` — 掲載本文と表示処理
+## 編集ポイント
+
+- タイトルや説明文は `index.html` で変更できます。
+- 色や余白は `style.css` の冒頭にあるCSS変数で調整できます。
+- 掲載本文は `content.md` を直接編集します。
+- `## 見出し` は大見出し、`- 項目` は箇条書きとして記述します。
+- GitHub上で `content.md` を編集してコミットすると、数分後に公開ページへ反映されます。

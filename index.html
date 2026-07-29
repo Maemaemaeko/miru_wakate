@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -19,12 +21,14 @@
   </header>
   <main id="document">
     <article aria-label="公開資料全文">
-      <div id="source-text" class="source-text"></div>
+      <div class="source-text">
+        {% capture article_markdown %}{% include_relative content.md %}{% endcapture %}
+        {{ article_markdown | markdownify }}
+      </div>
     </article>
   </main>
   <footer>
     <p>Source: 提出版公開資料新タスク1_参考文献修正</p>
   </footer>
-  <script src="script.js"></script>
 </body>
 </html>

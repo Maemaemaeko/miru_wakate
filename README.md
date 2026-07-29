@@ -5,16 +5,14 @@ MIRU若手プログラムの新タスク提案を、Introductionの明快さと�
 
 ## ファイル構成
 
-- `index.html` — ページ本体
+- `index.html` — `content.md`を直接表示するページ
 - `style.css` — デザインとレスポンシブ対応
 - `content.md` — 掲載する本文（通常はこのファイルを編集します）
-- `script.js` — Markdown本文の読み込みと表示処理
-- `tools/import-google-doc.mjs` — ダウンロード済み原稿からサイトを再生成する取り込みスクリプト
 
 ## GitHub Pagesで公開する方法
 
 1. GitHubで新しいリポジトリを作成します。
-2. `index.html`、`style.css`、`script.js`、`content.md`、READMEをリポジトリ直下へアップロードします。
+2. `index.html`、`style.css`、`content.md`、READMEをリポジトリ直下へアップロードします。
 3. GitHubの `Settings` → `Pages` を開きます。
 4. `Build and deployment` の Source を `Deploy from a branch` にします。
 5. Branchを `main`、フォルダを `/ (root)` にして保存します。

@@ -88,6 +88,9 @@ article {
   margin: 0;
   white-space: pre-wrap;
 }
+.document-line2 {
+  margin-left: 1.25rem;
+}
 .evidence-block {
   margin-left: 2rem;
 }
